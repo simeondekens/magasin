@@ -6,12 +6,14 @@ and open the template in the editor.
 -->
 <html>
     <head>
+        <link rel="stylesheet" href="./lib/css/style.css" />
         <meta charset="UTF-8">
-        <title></title>
+        <title>Test Progra avancée</title>
     </head>
     <body>
         <?php
-            print "hello world";
+            
+            include('./lib/php/menu.php');
         ?>
     </body>
 </html>
